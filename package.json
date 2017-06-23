@@ -1,0 +1,15 @@
+{
+  "name": "blob-minio",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "jun.zhang",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "git":"",
+  "dependencies": {
+    "minio": "^3.1.3"
+  }
+}
