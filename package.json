@@ -1,15 +1,70 @@
 {
-  "name": "blob-minio",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "author": "jun.zhang",
+  "_args": [
+    [
+      "blob-minio",
+      "/Users/x/am-browser-server"
+    ]
+  ],
+  "_from": "blob-minio@*",
+  "_id": "blob-minio@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/blob-minio",
+  "_nodeVersion": "4.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/blob-minio-0.1.0.tgz_1498189005315_0.44590831897221506"
+  },
+  "_npmUser": {
+    "email": "yangJu1108@163.com",
+    "name": "jun.zhang"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "blob-minio",
+    "raw": "blob-minio",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/blob-minio/-/blob-minio-0.1.0.tgz",
+  "_shasum": "edeb3f7dac638cf007decd075749192153e54be8",
+  "_shrinkwrap": null,
+  "_spec": "blob-minio",
+  "_where": "/Users/x/am-browser-server",
+  "author": {
+    "name": "jun.zhang"
+  },
+  "dependencies": {
+    "minio": "^3.1.3"
+  },
+  "description": "blobBucketExists ,   blobMakeBucket,   blobRemoveBucket,   blobListObjects,   blobGetObject,   blobFGetObject,   blobPutFileObject,   blobPutObject,   blobRemoveObject,   blobPresignedGetObject,   blobGetBucketPolicy,   blobSetBucketPolicy",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "edeb3f7dac638cf007decd075749192153e54be8",
+    "tarball": "https://registry.npmjs.org/blob-minio/-/blob-minio-0.1.0.tgz"
+  },
+  "git": "https://github.com/zhangjunMaster/blob-minio",
+  "gitHead": "2a3cf83c1ce30816f442cd777a57d4d5d13503a3",
   "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jun.zhang",
+      "email": "yangJu1108@163.com"
+    }
+  ],
+  "name": "blob-minio",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "scripts": {
     "start": "node index.js"
   },
-  "git":"",
-  "dependencies": {
-    "minio": "^3.1.3"
-  }
+  "version": "0.1.0"
 }
